@@ -1,0 +1,38 @@
+#home{
+  background:
+  //url("https://s26511.pcdn.co/wp-content/uploads/2018/07/Misty-blue-mountains-on-sunrise-613111906_4728x3152.jpeg");
+  url("https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg");
+  background-repeat: no-repeat;
+  center: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .welcome-box{
+    background: rgba(0, 0, 0, .6);
+    padding: 40px 15px;
+    text-align: center;
+    h1{
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      font-weight: 100;
+      text-transform: uppercase;
+      color: $white;
+
+      }
+    }
+    .btn{
+      width: 100%;
+      padding: 10px 20px;
+      text-align: center;
+      margin: 15px 0;
+      color: $white;
+      &.lightBlue{
+        background: $lightBlue;
+        font-size: 25px;
+      }
+    }
+}
