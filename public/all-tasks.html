@@ -49,10 +49,128 @@
                 Created: February 4, 2019
               </div>
             </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                clean room
+              </div>
+              <div class="date">
+                Created: February 4, 2019
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
+      <section class="task-form">
+        <div class="close-btn">
+          <i class="fa fa-times"></i>
+        </div>
+        <form>
+          <h3>Add a task</h3>
+          <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" name="title">
+          </div>
+          <div class="form-group">
+            <label for="title">Category:</label>
+            <input type="text" name="title">
+          </div>
+          <div class="form-group">
+            <label for="title">Notes:</label>
+            <textarea name="notes"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit"> Add new task</button>
+          </div>
+        </form>
+      </section>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous">
+    </script>
+    <script>
+    $(document).ready(function(){
+      $('.add-circle').on('click', function(){
+        $('.task-form').addClass('active')
+      })
+      $('.task-form .close-btn').on('click', function(){
+        $('.task-form').removeClass('active')
+    })
+  })
+    </script>
   </body>
 </html>
