@@ -1,5 +1,3 @@
 # Todo-App-HTML
-<<<<<<< HEAD
-=======
-
->>>>>>> 0c5f0ac60806bc7973889668b9ebf632556e0721
+Responsive Web Application
+Built with HTML, SCSS, JavaScript, JQuery, Gulp and Atom.
